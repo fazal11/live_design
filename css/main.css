@@ -10,7 +10,8 @@ body, * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  color: #040404; }
 
 ul, ol {
   margin: 0;
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   color: #acacac; }
 
 .text__dark_gray {
-  color: #8192a6; }
+  color: #7e92ab !important; }
 
 .text__blue {
   color: #2674fc !important; }
@@ -44,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p, span {
   background-color: #fcfcfe; }
 
 .light__hero_text {
-  color: #6da9f8; }
+  color: #6ab2fa !important; }
 
 .tab__green {
   background-color: #00c0c7; }
@@ -316,6 +317,10 @@ h1, h2, h3, h4, h5, h6, p, span {
 .line_0_7 {
   line-height: 0.7; }
 
+.blue__shadow {
+  -webkit-box-shadow: rgba(33, 91, 250, 0.24) 0px 7px 29px 0px;
+          box-shadow: rgba(33, 91, 250, 0.24) 0px 7px 29px 0px; }
+
 body, * {
   font-family: "Roboto", sans-serif; }
   @media (max-width: 2000px) {
@@ -323,9 +328,11 @@ body, * {
       -webkit-transition: 0.5s all !important;
       transition: 0.5s all !important; } }
   body ::-moz-selection, * ::-moz-selection {
-    color: #2674fc; }
+    color: #2674fc;
+    background-color: #0c2b6b; }
   body ::selection, * ::selection {
-    color: #2674fc; }
+    color: #2674fc;
+    background-color: #0c2b6b; }
 
 .navbar-brand img {
   width: 19rem; }
@@ -952,6 +959,21 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
   background-position: top; }
   .start_right_testy {
     margin-top: 15rem; }
+    @media (max-width: 767px) {
+      .start_right_testy {
+        padding-bottom: 10rem; } }
+
+.start_reverse {
+  background-image: url(../../images/revese.png);
+  background-size: 100% 60rem;
+  background-repeat: no-repeat;
+  background-position-y: 15vh;
+  background-position: top;
+  padding-top: 12rem; }
+  .start_reverse_testy {
+    margin-top: 0rem; }
+  .start_reverse .start_right_cotent {
+    margin-top: 10rem; }
 
 .starts_card .card {
   width: 40rem;
@@ -1038,7 +1060,12 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
     .how_do .block__black h4 {
       font-size: 1.5rem !important; }
   .start_right {
-    background-size: 100% 42rem; } }
+    background-size: 150% 42rem; } }
+
+.input__clone {
+  border: 1.75px solid #c5c5c5 !important;
+  border-radius: 1.2rem !important;
+  padding: 1.8rem 1.9rem; }
 
 .exchnage__tables .table > :not(:first-child) {
   border-top: none; }

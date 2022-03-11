@@ -6,7 +6,9 @@ body,* {
   }
   ::selection {
     color: $blue;
+    background-color: $dark__blue
   }
+  
 }
 // === HEADER LOGO SWITCH ===
 .navbar-brand {

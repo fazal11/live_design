@@ -6,6 +6,7 @@ body,* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #040404;
 }
 ul,ol {
   margin: 0;
@@ -24,19 +25,20 @@ $blue :        #2674fc;
 $dark__blue :  #0c2b6b;
 $light__v    : #f1f5fe;
 $light__gray : #acacac;
-$dark__gray  : #8192a6;
+$dark__gray  : #7e92ab;
 $black       : #191a1c;
 $light__green : #00c0c7;
 $dark__red :    #970047;
 $red :    rgb(255, 40, 40);
 $green :    rgb(42, 231, 52);
 $light__sky :#fcfcfe;
-$light__hero : #6da9f8;
+$light__hero : #6ab2fa;
 $how_do   : #fbfcfe;
 $v__light   : #fcfdff;
 $table_head : #eff4fa;
 $update_green : #00e097;
 $light_body : #fbfbfb;
+
 
 .light_red {
   background-color: $red;
@@ -45,14 +47,14 @@ $light_body : #fbfbfb;
   background-color: $update_green;
 }
 .text__gray { color: $light__gray;}
-.text__dark_gray { color: $dark__gray;}
+.text__dark_gray { color: $dark__gray !important;}
 .text__blue { color: $blue !important;}
 .text__blue__dark { color: $dark__blue !important;}
 .light__sky {
   background-color: $light__sky;
 }
 .light__hero_text {
-  color: $light__hero;
+  color: $light__hero !important;
 }
 .tab__green {
   background-color: $light__green;
@@ -336,4 +338,7 @@ $light_body : #fbfbfb;
 }
 .line_0_7 {
   line-height: 0.7;
+}
+.blue__shadow {
+  box-shadow: rgba(33, 91, 250, 0.24) 0px 7px 29px 0px;
 }
