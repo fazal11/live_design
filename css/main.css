@@ -321,6 +321,9 @@ h1, h2, h3, h4, h5, h6, p, span {
   background-color: #2475fc;
   background-image: linear-gradient(98deg, #2475fc 15%, #07b8fc 71%); }
 
+.index_nav_link {
+  font-size: 2rem; }
+
 body, * {
   font-family: "Roboto", sans-serif; }
   @media (max-width: 2000px) {
@@ -1148,7 +1151,7 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
         bottom: 10px;
         right: 5px;
         content: "";
-        background-image: url(../../images/checked_icon.png);
+        background-image: url(../images/checked_icon.png);
         background-size: 1rem;
         width: 1rem;
         height: 1rem; }
