@@ -31,7 +31,7 @@
   
 }
 .cryptick__about {
-  @include section__(12)
+  @include section__(12);
 }
 .cryptick__content {
   background-color: white;
@@ -123,5 +123,23 @@
   &__content {
     // @include media__max(991){
     // }
+  }
+}
+// .about__contactinfo {
+//   h3 {
+//     font-size: 5.5rem;
+//   }
+// }
+@include media__max(550){
+  .cryptick__about {
+    img {
+      width: 20rem;
+    }
+  }
+  .about__contactinfo {
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem !important;
+    }
   }
 }

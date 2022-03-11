@@ -14,10 +14,10 @@
     <title>API !</title>
   </head>
   <body>
-    <header id="header" class="py-4 bg__white shadow">
+    <header id="header" class="py-4 bg__white">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container px-0">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img class="img-fluid" src="images/logo.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,12 +26,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0 align-items-lg-center align-items-end">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active" aria-current="page" href="dashboard.html">
                   Dashboard
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="">
                   Ajouter Donnees
                 </a>
               </li>
@@ -43,23 +43,43 @@
               
             </ul>
             <!-- account id  -->
-          <div class="dropdown user">
-            <button class="bg-transparent dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-              <img class="img-fluid bg-white" src="images/user.png" alt="">
-            </button>
-            <ul class="dropdown-menu user__drop shadow-lg pt-5" aria-labelledby="dropdownMenu2">
-              <h5 class="line__bottom user__name my-5 font__15">UserName</h5>
-              <div class="text-center mb-5">
-                <a class="px-5 py-3 rounded-pill text__blue ms-4 bg__blue__light font__15" href="about.html">Sitting</a>
+            <!-- Example single danger button -->
+            <div class="d-flex justify-content-end me-5 me-md-0">
+              <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle shadow-none" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img class="w-100" src="images/user.png" alt="">
+                </button>
+                <ul class="dropdown-menu primary__radius shadow-lg dropdown-menu-end border-0">
+                  <li><a class="dropdown-item d-flex align-items-baseline" href="#">
+                    <div class="">
+                      <span><img class="icon" src="images/plan_icon.jpeg" alt=""></span> 
+                    </div>
+                    <div class="">
+                      <p class="mb-0 font__18 line_0_7 text__blue__dark">Plane</p><small class="font__13 text-black-50">chose your plan</small>
+                    </div>
+                  </a></li>
+  
+                  <li><a class="dropdown-item d-flex align-items-baseline" href="#">
+                    <div class="">
+                      <span><img class="icon" src="images/sitting.jpeg" alt=""></span> 
+                    </div>
+                    <div class="">
+                      <p class="mb-0 font__18 line_0_7 text__blue__dark">Sittings</p><small class="font__13 text-black-50">Mange your Sittings</small>
+                    </div>
+                  </a></li>
+  
+                  <li><a class="dropdown-item d-flex align-items-baseline" href="#">
+                    <div class="">
+                      <span><img class="icon" src="images/plan_icon.jpeg" alt=""></span> 
+                    </div>
+                    <div class="">
+                      <p class="mb-0 font__18 line_0_7 text__blue__dark">LogOut</p><small class="font__13 text-black-50">Logout out Dashboard</small>
+                    </div>
+                  </a></li>
+                </ul>
               </div>
-              <div class="text-center mb-5">
-                <a class="px-5 py-3 rounded-pill text__blue ms-4 bg__blue__light font__15" href="about.html">Profile</a>
-              </div>
-              <div class="text-center">
-                <a class="px-5 py-3 rounded-pill text__blue ms-4 bg__blue__light font__15" href="about.html">LogOut</a>
-              </div>
-            </ul>
-          </div>
+            </div>
+
           </div>
           
         </div>

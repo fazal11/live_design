@@ -10,8 +10,7 @@ body, * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #040404; }
+          box-sizing: border-box; }
 
 ul, ol {
   margin: 0;
@@ -259,9 +258,6 @@ h1, h2, h3, h4, h5, h6, p, span {
   .about__contactinfo {
     padding-left: 3rem;
     padding-right: 3rem; } }
-
-.about__contactinfo h3 {
-  font-size: 1.7rem; }
 
 .mb_40 {
   margin-bottom: 7rem; }
@@ -592,6 +588,13 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
   .info__img {
     width: 24rem;
     height: 24rem; } }
+
+@media (max-width: 550px) {
+  .cryptick__about img {
+    width: 20rem; }
+  .about__contactinfo h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem !important; } }
 
 .plan__card {
   background: white;
