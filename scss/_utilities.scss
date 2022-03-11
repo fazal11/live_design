@@ -100,6 +100,7 @@ $light_body : #fbfbfb;
 .bg__black  { background-color: $black;}
 .bg__gray  { background-color: $light__gray;}
 .bg__blue__light  { background-color: $light__v;}
+.bg__light__blue { background-color: $light__v !important;}
 //    === ALL WEIGHTS ===
 .font__100 { font-weight: 100 !important; }
 .font__200 { font-weight: 200 !important; }
@@ -349,4 +350,9 @@ $light_body : #fbfbfb;
 }
 .index_nav_link {
   font-size: 2rem;
+}
+.fix_api {
+  @include media__max(767){
+    margin-top: 13rem;
+  }
 }

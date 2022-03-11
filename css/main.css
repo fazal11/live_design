@@ -95,6 +95,9 @@ h1, h2, h3, h4, h5, h6, p, span {
 .bg__blue__light {
   background-color: #f1f5fe; }
 
+.bg__light__blue {
+  background-color: #f1f5fe !important; }
+
 .font__100 {
   font-weight: 100 !important; }
 
@@ -324,6 +327,10 @@ h1, h2, h3, h4, h5, h6, p, span {
 .index_nav_link {
   font-size: 2rem; }
 
+@media (max-width: 767px) {
+  .fix_api {
+    margin-top: 13rem; } }
+
 body, * {
   font-family: "Roboto", sans-serif; }
   @media (max-width: 2000px) {
@@ -331,11 +338,11 @@ body, * {
       -webkit-transition: 0.5s all !important;
       transition: 0.5s all !important; } }
   body ::-moz-selection, * ::-moz-selection {
-    color: #2674fc;
-    background-color: #0c2b6b; }
+    color: #ffffff;
+    background-color: #568af1; }
   body ::selection, * ::selection {
-    color: #2674fc;
-    background-color: #0c2b6b; }
+    color: #ffffff;
+    background-color: #568af1; }
 
 .navbar-brand img {
   width: 19rem; }
@@ -768,7 +775,7 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
   width: 4rem;
   height: 4rem;
   background-color: transparent;
-  background-image: url(../../images/arrow.png) !important;
+  background-image: url(../images/arrow.png) !important;
   background-size: 4rem; }
 
 .card_layout {
