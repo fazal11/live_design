@@ -964,7 +964,7 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
         padding-bottom: 10rem; } }
 
 .start_reverse {
-  background-image: url(../../images/revese.png);
+  background-image: url(../images/revese.png);
   background-size: 100% 60rem;
   background-repeat: no-repeat;
   background-position-y: 15vh;
