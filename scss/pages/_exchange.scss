@@ -82,6 +82,9 @@
   overflow: hidden;
   grid-gap: 1px;
   background-color: $light__gray;
+  // @include media__max(1200){
+  // grid-template-columns: 200px 200px  200px;
+  // }
   .grid_item {
     // background-color: red;
     height: 70px;
