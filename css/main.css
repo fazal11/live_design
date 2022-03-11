@@ -317,6 +317,10 @@ h1, h2, h3, h4, h5, h6, p, span {
   -webkit-box-shadow: rgba(33, 91, 250, 0.24) 0px 7px 29px 0px;
           box-shadow: rgba(33, 91, 250, 0.24) 0px 7px 29px 0px; }
 
+.plan_btn {
+  background-color: #2475fc;
+  background-image: linear-gradient(98deg, #2475fc 15%, #07b8fc 71%); }
+
 body, * {
   font-family: "Roboto", sans-serif; }
   @media (max-width: 2000px) {
@@ -637,7 +641,7 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
       content: "";
       width: 2rem;
       height: 2rem;
-      background-image: url(../../assets/img/checked.png);
+      background-image: url(../images/checked_icon.png);
       background-size: cover;
       background-repeat: no-repeat; }
 
