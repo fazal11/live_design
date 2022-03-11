@@ -944,7 +944,7 @@ header .navbar-light .navbar-nav .nav-link.active, .line__bottom {
     font-weight: 400; }
 
 .hero {
-  height: 100vh;
+  height: 92rem;
   background-image: url(../images/background_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
